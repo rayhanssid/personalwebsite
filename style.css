@@ -10,9 +10,11 @@ h2{
 }
 h3{
     font-size: 35px;
+    color:blue;
 }
-p{font-size: 18px;
 
+p{font-size: 23px;
+color: indigo;
 }
 
 .half-width{
@@ -33,6 +35,7 @@ p{font-size: 18px;
 section{
     height: 550px;
     padding: 100px;
+    padding-bottom: 250px;
 }
 
 .link-button{
@@ -47,14 +50,45 @@ section{
 .biography{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
-}
-.latest{
+
+
 
 
 }
+
+
 .latest-work{
     background-image: url(images/latest-work-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: top;
+
 }
+.latest img{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 50px;
+}
+
+.latest-work-heading{
+    text-align: center;
+}
+
+.client{
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.contact-area{
+    background-image: linear-gradient(45deg,tomato,indianred);
+    margin:0px 350px;
+    color:white;
+    padding:30px 60px;
+    font-weight: 700;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
